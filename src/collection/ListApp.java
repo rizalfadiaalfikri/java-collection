@@ -1,13 +1,12 @@
 package collection;
 
 import java.util.ArrayList;
-import java.util.LinkedList;
 import java.util.List;
 
 public class ListApp {
     public static void main(String[] args) {
-        // ArrayList<String> names = new ArrayList<>();
-        List<String> names = new LinkedList<>();
+        ArrayList<String> names = new ArrayList<>();
+        // List<String> names = new LinkedList<>();
 
         names.add("Rizal");
         names.add("Fadia");
