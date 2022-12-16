@@ -14,8 +14,8 @@ public class EnumHashMapApp {
         map.put(Level.FREE, "Rizal");
         map.put(Level.VIP, "Fikri");
 
-        for (var key : map.entrySet()) {
-            System.out.println("Key: " + key.getKey() + " " + "Value: " + key.getValue());
+        for (var key : map.keySet()) {
+            System.out.println(map.get(key));
         }
 
     }
